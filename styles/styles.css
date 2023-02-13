@@ -35,6 +35,16 @@
   --color-grey-6: #12181b;
 }
 
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 body {
   background-color: var(--color-primary);
   font-family: "Poppins", sans-serif;
@@ -575,6 +585,10 @@ section {
   align-self: flex-start;
 }
 
+.submit-btn{
+  margin-right:2rem;
+}
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
@@ -638,7 +652,8 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
-  font-size: 6.3rem;
+  font-size: 5.8rem;
+  margin-top: 2rem;
 }
 
 .about-container .left-about p {
@@ -905,6 +920,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+}
+
+.contactBtnContainer{
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */
