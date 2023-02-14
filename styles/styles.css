@@ -414,7 +414,7 @@ section {
 
 .portfolios {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -423,7 +423,7 @@ section {
   border-radius: 15px;
 }
 .portfolios .portfolio-item img {
-  width: 100%;
+  width: 500px;
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
