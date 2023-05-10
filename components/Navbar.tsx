@@ -71,15 +71,12 @@ export default function Navbar() {
           </Link>
         ))}
         <div className="fixed bottom-4 left-6 flex items-center flex-col gap-4">
-          <Link href="https://www.github.com">
-            <AiFillGithub className={socialClassNames}/>
-          </Link>
-          <Link href="https://www.instagram.com">
-            <AiFillInstagram className={socialClassNames}/>
-          </Link>
-          <Link href="https://www.twitter.com">
-            <AiFillTwitterCircle className={socialClassNames}/>
-          </Link>
+        <Link href={"https://github.com/kunal-joshi06"} target={"_blank"}>
+          <AiFillGithub className={socialClassNames} />
+        </Link>
+        <Link href={"https://www.linkedin.com/in/kunal-joshi-033b7b23a"} target={"_blank"}>
+          <AiFillLinkedin className={socialClassNames} />
+        </Link>
         </div>
         <HiX className="absolute text-White top-20 right-8 w-6 h-6 cursor-pointer" onClick={(prev) => setShowMenu(!prev)}/>
       </motion.nav>
