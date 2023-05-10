@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+  background-color: #b3b2b1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background-color: #eeb844;
+  border-radius: 10px;
+}
+
+@layer components {
+  section {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-12 min-h-screen
+  }
+}
+
+.TextShadow:hover {
+  text-shadow: 0 0 20px #eeb844, 0 0 20px #eeb844, 0 0 20px #eeb844;
+}
