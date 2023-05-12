@@ -44,19 +44,19 @@ const projects: ProjectProps[] = [
   },
   {
     id: 2,
-    img: "/projects/snippet.png",
-    name: "NextJs Full Stack App - SnippetIo",
-    tools: ["NextJs", "TypeScript", "Tailwind CSS", "NextAuth", "MongoDB"],
-    githubLink: "https://github.com/kunal-joshi06/full-stack-snippets",
-    deployedLink: "https://full-stack-snippets.vercel.app",
-  },
-  {
-    id: 3,
     img: "projects/netflix-clone.png",
     name: "Netflix-Clone",
     tools: ["ReactJs", "Stripe-Payment", "Firebase", "Firestore", "Firebase-Auth"],
     githubLink: "https://github.com/kunal-joshi06/netlix-clone",
     deployedLink: "https://netlix-clone-theta.vercel.app",
+  },
+  {
+    id: 3,
+    img: "/projects/snippet.png",
+    name: "NextJs Full Stack App - SnippetIo",
+    tools: ["NextJs", "TypeScript", "Tailwind CSS", "NextAuth", "MongoDB"],
+    githubLink: "https://github.com/kunal-joshi06/full-stack-snippets",
+    deployedLink: "https://full-stack-snippets.vercel.app",
   },
   {
     id: 4,
