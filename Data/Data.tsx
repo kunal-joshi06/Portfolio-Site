@@ -52,6 +52,14 @@ const projects: ProjectProps[] = [
   },
   {
     id: 3,
+    img: "projects/netflix-clone.png",
+    name: "Netflix-Clone",
+    tools: ["ReactJs", "Stripe-Payment", "Firebase", "Firestore", "Firebase-Auth"],
+    githubLink: "https://github.com/kunal-joshi06/netlix-clone",
+    deployedLink: "https://netlix-clone-theta.vercel.app",
+  },
+  {
+    id: 4,
     img: "projects/portfolio.png",
     name: "My Portfolio Site",
     tools: ["ReactJs", "NextJs", "TypeScript", "FramerMotion", "TailWind CSS"],
@@ -59,7 +67,7 @@ const projects: ProjectProps[] = [
     deployedLink: "",
   },
   {
-    id: 4,
+    id: 5,
     img: "projects/notes.png",
     name: "NotesKeep App",
     tools: ["ReactJs", "Bootstrap CSS", "LocalSessionStorage"],
@@ -67,7 +75,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://notes-app-p1xxu.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     img: "projects/weatherApp.png",
     name: "Weather Forecast Website",
     tools: ["ReactJs", "Bootstrap CSS", "Axios"],
@@ -75,7 +83,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://weather-app-p1xxu.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     img: "projects/pbk.png",
     name: "Paintings By Kasana (FreeLance Work)",
     tools: ["ReactJs", "ViteJs", "Bootstrap CSS", "Whatsapp API Integration"],
@@ -83,7 +91,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://www.paintingsbykasana.com",
   },
   {
-    id: 7,
+    id: 8,
     img: "projects/cae.png",
     name: "Cooling Air Engineering (FreeLance Work)",
     tools: ["HTML", "CSS", "JavaScript", "Bootstrap CSS", "Whatsapp API Integration"],
@@ -91,7 +99,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://caengineering.github.io/",
   },
   {
-    id: 8,
+    id: 9,
     img: "projects/tic-tac-toe.png",
     name: "Tic-tac toe",
     tools: ["HTML", "CSS", "JavaScript", "Bootstrap CSS"],
