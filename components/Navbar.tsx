@@ -3,7 +3,7 @@ import {usePathname} from "next/navigation"
 import Link from "next/link";
 import { motion } from "framer-motion";
 import {HiOutlineMenuAlt4,HiX} from "react-icons/hi"
-import {AiFillGithub,AiFillInstagram,AiFillTwitterCircle} from "react-icons/ai"
+import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 import { useEffect, useState } from "react";
 export default function Navbar() {
   const [showMenu,setShowMenu] = useState<boolean>(false)

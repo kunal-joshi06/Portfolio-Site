@@ -2,9 +2,7 @@ import Link from "next/link";
 import { WrapperProps } from "@/Types";
 import {
   AiFillGithub,
-  AiFillInstagram,
   AiFillLinkedin
-  
 } from "react-icons/ai";
 
 export default function Wrapper({pageIndex,children,className}: WrapperProps) {
