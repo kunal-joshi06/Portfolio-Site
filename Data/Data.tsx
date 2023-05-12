@@ -120,7 +120,7 @@ const skills = [
 ];
 
 const contacts: ContactsProps[] = [
-  { id: 2, title: "Phone", text: "+91-9354878069" },
+  { id: 2, title: "Phone", text: "+91 9354878069" },
   { id: 3, title: "Email", text: "kunaljoshi0603@gmail.com" },
 ];
 
