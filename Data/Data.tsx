@@ -16,7 +16,7 @@ const navLinks: NavLink[] = [
 ];
 
 const services: ServiceProps[] = [
-  
+
   { id: 2, title: "Web Developmemt", icon: <BsCode />, finished: 10 },
 
 ];
@@ -45,7 +45,7 @@ const projects: ProjectProps[] = [
   {
     id: 2,
     img: "projects/netflix-clone.png",
-    name: "Netflix-Clone",
+    name: "Subscription Model Payment Integration",
     tools: ["ReactJs", "Stripe-Payment", "Firebase", "Firestore", "Firebase-Auth"],
     githubLink: "https://github.com/kunal-joshi06/netlix-clone",
     deployedLink: "https://netlix-clone-theta.vercel.app",
@@ -124,4 +124,4 @@ const contacts: ContactsProps[] = [
   { id: 3, title: "Email", text: "kunaljoshi0603@gmail.com" },
 ];
 
-export {navLinks, projects, countUpItems, services, skills, contacts };
+export { navLinks, projects, countUpItems, services, skills, contacts };
