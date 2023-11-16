@@ -36,6 +36,14 @@ const countUpItems: countUpItemsProps[] = [
 const projects: ProjectProps[] = [
   {
     id: 1,
+    img: "/projects/ecom.png",
+    name: "FullStack Ecommerce Store with Admin Panel",
+    tools: ["ReactJs", "TypeScript", "Redux Toolkit", "Stripe Payment Integration", "Login-Authorization", "Integrated Cart", "MongoDB", "Tailwind CSS", "shadcn-ui", "Admin Panel"],
+    githubLink: "https://github.com/kunal-joshi06/mern_ecom_frontend",
+    deployedLink: "https://mern-ecom-frontend-eight.vercel.app",
+  },
+  {
+    id: 2,
     img: "/projects/tripzygo.png",
     name: "TripzyGo Travel Website",
     tools: ["ReactJs", "NextJs", "Bootstrap CSS", "AWS EC2", "MongoDB"],
@@ -43,7 +51,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://www.tripzygo.in",
   },
   {
-    id: 2,
+    id: 3,
     img: "projects/netflix-clone.png",
     name: "Subscription Model Payment Integration",
     tools: ["ReactJs", "Stripe-Payment", "Firebase", "Firestore", "Firebase-Auth"],
@@ -51,7 +59,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://netlix-clone-theta.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     img: "/projects/snippet.png",
     name: "NextJs Full Stack App - SnippetIo",
     tools: ["NextJs", "TypeScript", "Tailwind CSS", "NextAuth", "MongoDB"],
@@ -59,7 +67,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://full-stack-snippets.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     img: "projects/portfolio.png",
     name: "My Portfolio Site",
     tools: ["ReactJs", "NextJs", "TypeScript", "FramerMotion", "TailWind CSS"],
@@ -67,7 +75,7 @@ const projects: ProjectProps[] = [
     deployedLink: "",
   },
   {
-    id: 5,
+    id: 6,
     img: "projects/notes.png",
     name: "NotesKeep App",
     tools: ["ReactJs", "Bootstrap CSS", "LocalSessionStorage"],
@@ -75,7 +83,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://notes-app-p1xxu.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     img: "projects/weatherApp.png",
     name: "Weather Forecast Website",
     tools: ["ReactJs", "Bootstrap CSS", "Axios"],
@@ -83,7 +91,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://weather-app-p1xxu.vercel.app",
   },
   {
-    id: 7,
+    id: 8,
     img: "projects/pbk.png",
     name: "Paintings By Kasana (FreeLance Work)",
     tools: ["ReactJs", "ViteJs", "Bootstrap CSS", "Whatsapp API Integration"],
@@ -91,7 +99,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://www.paintingsbykasana.com",
   },
   {
-    id: 8,
+    id: 9,
     img: "projects/cae.png",
     name: "Cooling Air Engineering (FreeLance Work)",
     tools: ["HTML", "CSS", "JavaScript", "Bootstrap CSS", "Whatsapp API Integration"],
@@ -99,7 +107,7 @@ const projects: ProjectProps[] = [
     deployedLink: "https://caengineering.github.io/",
   },
   {
-    id: 9,
+    id: 10,
     img: "projects/tic-tac-toe.png",
     name: "Tic-tac toe",
     tools: ["HTML", "CSS", "JavaScript", "Bootstrap CSS"],

@@ -3,13 +3,13 @@ import Head from "next/head";
 import Link from "next/link";
 import Wrapper from "@/components/Wrapper";
 import { projects } from "@/Data/Data";
-import {AiFillGithub,AiFillEye} from "react-icons/ai"
+import { AiFillGithub, AiFillEye } from "react-icons/ai"
 import Services from "@/components/Services";
 import { countUpItems } from "@/Data/Data";
 import MyCountUp from "@/components/CountUp";
 import { useInView } from "react-intersection-observer";
 export default function Portfolio() {
-  const {ref,inView} = useInView({
+  const { ref, inView } = useInView({
     threshold: 0.5
   })
   return (
@@ -36,17 +36,17 @@ export default function Portfolio() {
             {projects.map((project) => (
               <div
                 key={project.id}
-                className="bg-Blur p-4  rounded-lg"
+                className="bg-Blur p-4  rounded-lg h-fit"
               >
                 <div className="w-full  relative group">
                   <img src={project.img} alt="project-image" />
                   <div className="absolute w-full h-full bg-Orange top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
                     {
-                      (project.githubLink == "")? <></> : <Link href={project.githubLink}>
-                      <AiFillGithub className="text-3xl hover:scale-110 transition-all duration-300" />
-                    </Link>
+                      (project.githubLink == "") ? <></> : <Link href={project.githubLink}>
+                        <AiFillGithub className="text-3xl hover:scale-110 transition-all duration-300" />
+                      </Link>
                     }
-                    
+
 
                     <Link href={project.deployedLink}>
                       <AiFillEye className="text-3xl hover:scale-110 transition-all duration-300" />
@@ -75,7 +75,7 @@ export default function Portfolio() {
           {countUpItems.map(item => (
             <div key={item.id} className="text-center">
               <div className="text-Orange text-3xl">
-                {inView && <MyCountUp start={0} end={item.number} duration={3}/>}+
+                {inView && <MyCountUp start={0} end={item.number} duration={3} />}+
               </div>
               <div className="text-WhiteGray mt-2 text-sm">{item.text}</div>
             </div>
